@@ -17,6 +17,8 @@ body{
 	background-color: #FFF;
 }
 
+
+
 .top{
 	width:1004px;
 	height:508px;
@@ -99,6 +101,7 @@ body{
 	width: 1000px;/*
 	background-color:red;	*/
     position: relative;
+    margin-top:100px;
 }
 
 .personal{
@@ -107,7 +110,7 @@ body{
 
 
 .pic5{                             /*个人信息 黑白图片*/
-	width: 50%;
+	width: 70%;
 	position: absolute;
 	left:325px;
 	padding:100px;
