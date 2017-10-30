@@ -1,0 +1,353 @@
+@charset "gb2312";
+/* CSS Document */
+
+
+* {
+	padding: 0;
+	margin: 0;
+/*	font-size: 14px;*/
+	text-decoration: none;
+	list-style-type: none;
+	font-family: '宋体';
+}
+
+body{
+	width: 1000px;
+	margin: 0 auto;
+	background-color: #FFF;
+}
+
+.top{
+	width:1004px;
+	height:508px;
+	position:relative;
+}
+
+.top1{
+	position:absolute;           /* 用绝对定位和相对定位让2张图片重叠*/
+	left: 42px;
+	top: 118px;
+}
+
+.top2{
+	position:absolute;         
+	left: 0px;
+	top: 332px;
+}
+
+.p1{
+	font-family: 'Arial';
+	font-size: 14px;
+	position:absolute;   
+	color: RGB(140,175,191);       
+	left: 42px;
+	top: 338px;
+
+
+}
+
+.p2{
+	font-family: '宋体';
+	font-size: 12px;
+	position:absolute;   
+	color: RGB(140,175,191);       
+	left: 42px;
+	top: 388px;
+	line-height:200%;     /*设置行距*/
+}
+
+
+.nav{
+	width: 100%;
+	height: 100px;
+	line-height: 40px;
+	text-align: center;
+
+
+}
+
+.nav li{
+	margin-left: 227px;	
+
+}
+
+.nav a{	
+	font-size: 24px;
+	font-family: 'Arial';
+	color: #000;
+	float: left;
+	padding: 40px 55px 10px 20px;
+
+}
+
+.nav a:hover{
+	color:#1f688a;
+}
+
+.pic{
+	height: 320px;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.pic img{
+	padding:10px;
+}
+
+.personal-big{
+	height: 510px;
+	width: 1000px;/*
+	background-color:red;	*/
+    position: relative;
+}
+
+.personal{
+	padding-left: 320px;
+}
+
+
+.pic5{                             /*个人信息 黑白图片*/
+	width: 50%;
+	position: absolute;
+	left:325px;
+	padding:100px;
+
+}
+
+.pic6{                              /*蓝色半透明矩形*/
+	width: 84%;
+	height: 48%;
+	position: absolute;
+	top:118px;
+	left:85px;
+	opacity:0.6;      /*  透明度设置*/
+}
+
+.pic7{                                        /* R和正方形*/
+	position: absolute;
+	left: 105px;
+	top:120px;
+	height: 16%;
+}
+
+.personal-big p{                       /*个人信息介绍*/
+	font-size: 12px;
+	font-family：'宋体';
+	color: #fff;
+    line-height:170%;
+    position: absolute;
+    left:217px;
+    top:142px;
+}
+
+.movie-big{
+	height: 1000px;
+	width: 1000px;/*s*/
+    position: relative;
+}
+
+.movie-big p{
+	font-family: '宋体';
+	font-size: 12px;
+	text-align: center;
+	margin-top:30px;
+	color: #1c4d65;
+}
+
+.movie{
+	padding-left: 380px;
+}
+
+.movie-pic img{
+	float: left;
+	padding-left:150px;
+	padding-right: 10px;
+	padding-top: 50px;
+	position: relative;
+	display: block;
+}
+
+
+.pic12{/*
+	display: none;*/
+	padding-left:150px;
+	padding-right: 10px;
+	padding-top: 50px;
+	position: absolute;
+	left:0px;
+}
+
+
+.pic13{/*
+	display: none;*/
+	float:left;
+	padding-left:150px;
+	padding-right: 10px;
+	padding-top: 50px;
+	position: absolute;
+	left:436px;
+}
+
+.pic14{/*
+	display: none;*/
+	float:left;
+	padding-left:150px;
+	padding-right: 10px;
+	padding-top: 50px;
+	position: absolute;
+	left:0px;
+	top:507px;
+}
+
+.pic15{/*
+    display: none;*/
+	float:left;
+	padding-left:150px;
+	padding-right: 10px;
+	padding-top: 50px;
+	position: absolute;
+	left:435px;
+	top:507px;
+}
+
+
+.pic8:hover,.pic9:hover,.pic10:hover,.pic11:hover{
+	 opacity:0;                                           /*透明度真是个好东西！！！！！*/
+}
+
+.river-big{
+	height: 560px;
+	width: 1000px;/*
+	background-color:red;*/	
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 80px;     
+
+
+}
+
+.river{
+	padding-left: 380px;
+	padding-right: 20px;
+	padding-bottom:10px;
+	float: left;
+}
+
+.pic16{                        /*蓝条白框*/
+	float: left;
+	position: absolute;
+    left:115px;
+	top:268px;
+	float: left;
+	height: 45%;
+	width: 80%;
+}
+
+.pic17{                         /*竖条蓝色块*/
+	position: absolute;
+	left:85px;
+	top:100px;
+	float: left;
+	height: 75%;
+}
+
+.pic18{                       /*R的蓝色部分*/
+	position: absolute;
+    left:218px;
+	top:268px;
+	float: left;
+	height: 45%;
+}
+ 
+.pic19{                             /*R的白色部分*/
+	position: absolute;
+    left:222px;
+	top:268px;
+	float: left;
+	height: 45%;
+}
+
+.pic20{                            /*蓝色竖线*/
+	float: left;
+	position: absolute;
+	left:514px;
+	top:268px;
+	height: 40%;
+}
+
+.pic21{                            /*侧脸*/
+	float: left;
+	position: absolute;
+	left:514px;
+	top:394px;
+	height: 22.5%;
+}
+
+.pic22{                             /*爱达荷*/
+	float: left;
+	position: absolute;
+	left:714px;
+	top:268px;
+	height: 22.5%;
+}
+
+
+.pic23{
+	float: left;
+	position: absolute;
+	top:310px;
+	left: 514px;
+	height: 7%;
+}
+
+
+.pic24{
+	float: left;
+	position: absolute;
+	top:436px;
+	left: 742px;
+	height: 7%;
+}
+
+.phoenix-big{
+	height: 560px;
+	width: 1000px;/*
+	background-color:red;*/	
+    position: relative;
+}
+
+.phoenix{
+	padding-left: 360px;
+}   
+
+.p3{
+	font-family: '宋体';
+	font-size: 12px;
+	color: #287091;
+	line-height:200%;
+	display: block;
+	text-align: center;
+	padding-top: 80px;
+}
+
+.pic25{
+	padding:60px 340px;
+	text-align: center;
+}
+
+.footer{
+	padding-top: 200px;
+	position: relative;
+}
+
+.footer p{
+	font-family: '宋体';
+	font-size:12px;
+	text-align: center;
+	position: absolute;
+	top:218px;
+	left:420px;
+	color: #a8b9c8;
+	line-height: 150%;
+
+}
